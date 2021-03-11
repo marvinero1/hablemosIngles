@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            header("location: index.html");
+                            header("location: main.html");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "La contraseña que has ingresado no es válida.";
@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>   
     <style>
         body{
-            padding: 210px 350px 350px 600px;
+            padding: 125px 350px 350px 600px;
         }
     </style> 
 </body>
