@@ -122,7 +122,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </div>   
     <style>
         body{
-            padding: 125px 350px 350px 600px;
+            padding: 125px 350px 350px 510px;
         }
     </style> 
 </body>
