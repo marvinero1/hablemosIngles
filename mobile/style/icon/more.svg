@@ -1,12 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#DD4B3D;}
-	.st1{fill:#FFFFFF;}
-</style>
-<path class="st0" d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0z"/>
-<rect x="8" y="14" class="st1" width="16" height="4"/>
-<rect x="8" y="14" transform="matrix(7.844398e-11 -1 1 7.844398e-11 -1.055626e-05 32)" class="st1" width="16" height="4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="图层_1" x="0" y="0" version="1.1" viewBox="0 0 32 32" xml:space="preserve" style="enable-background:new 0 0 32 32"><style type="text/css">.st0{fill:#dd4b3d}.st1{fill:#fff}</style><path d="M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0z" class="st0"/><rect width="16" height="4" x="8" y="14" class="st1"/><rect width="16" height="4" x="8" y="14" class="st1" transform="matrix(7.844398e-11 -1 1 7.844398e-11 -1.055626e-05 32)"/></svg>
