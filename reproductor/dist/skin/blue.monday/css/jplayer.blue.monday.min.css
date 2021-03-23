@@ -23,7 +23,7 @@
 }
 
 .jp-audio {
-    width: 374px
+    width: 190px
 }
 
 .jp-audio-stream {
@@ -517,8 +517,8 @@ span.jp-artist {
     width: 55px;
     margin: 0;
     position: absolute;
-    left: 306px;
-    top: 33px
+    left: 150px;
+    top: 18px
 }
 
 .jp-video .jp-toggles {

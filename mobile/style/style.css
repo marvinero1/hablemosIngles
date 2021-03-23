@@ -28,6 +28,11 @@ textarea{outline:none;}
 ul,ol,li{list-style-type: none;margin:0;padding: 0px;}
 h1, h1, h2, h3, h4, h5, h6{font-weight:normal;}
 i,u{font-style:normal;text-decoration:none;}
+@media only screen and (max-width: 600px) {
+	.book {
+	  background-color: lightblue;
+	}
+  }
 .book{
 	position : absolute;
 	z-index : 2;

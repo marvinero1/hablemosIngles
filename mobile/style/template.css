@@ -331,6 +331,7 @@ textarea{font-family:Calibri;}
 }
   
 .fbTopBar{
+	
 	position: absolute;
   overflow: hidden;  
   z-index: 99;
@@ -362,10 +363,11 @@ textarea{font-family:Calibri;}
 }
 
 .fbToolBar{
+
   position: absolute;
   overflow: hidden;
   z-index: 99;
- 
+  background-color: white !important;
   bottom: 0px;
 	left: 0px;
 
