@@ -82,7 +82,7 @@
 
 .jp-audio .jp-interface,
 .jp-audio-stream .jp-interface {
-    height: 60px
+    height: 44px !important;
 }
 
 .jp-video .jp-interface {
@@ -105,8 +105,8 @@
 }
 
 .jp-audio .jp-controls {
-    width: 380px;
-    padding: 10px 7px 0 !important;
+    width: 183px;
+    padding: 3px 3px 0 !important;
 }
 
 .jp-audio-stream .jp-controls {
@@ -518,7 +518,7 @@ span.jp-artist {
     margin: 0;
     position: absolute;
     left: 150px;
-    top: 18px
+    top: 10px
 }
 
 .jp-video .jp-toggles {
