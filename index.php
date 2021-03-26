@@ -139,11 +139,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div style="float: right;" class=" ">
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
-        <?php if ($_SESSION["id"] == '4'): ?>
-            <a href="crud/index.php" class="btn btn-success" style="color: white;display: inline-block;">Ver Usuarios</a>
-        <?php endif; ?>
+        
 
-        <a href="catalogo.html" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
+        <a href="catalogo.php" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
         <a href="logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>

@@ -4,7 +4,7 @@ session_start();
  
 // Check if the user is already logged in, if yes then redirect him to welcome page
 if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true){
-  header("location: catalogo.html");
+  header("location: catalogo.php");
   exit;
 }
  
@@ -64,7 +64,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                             $_SESSION["username"] = $username;                            
                             
                             // Redirect user to welcome page
-                            header("location: catalogo.html");
+                            header("location: catalogo.php");
                         } else{
                             // Display an error message if password is not valid
                             $password_err = "La contraseña que has ingresado no es válida.";

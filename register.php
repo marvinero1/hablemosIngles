@@ -1,4 +1,14 @@
 <?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+    
+}
+
 // Include config file
 require_once "config.php";
  
@@ -113,6 +123,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </style>
 </head>
 <body>
+
+<a href="catalogo.php" class="btn btn-primary" style="color: white;display: inline-block;">Atras</a>
+
     <div class="wrapper">
         <h2>Registro</h2>
         <p>Por favor complete este formulario para crear una cuenta.</p>
@@ -140,6 +153,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <p>¿Ya tienes una cuenta? <a href="login.php">Ingresa aquí</a>.</p>
         </form>
+
     </div>  
     <style>
         body{
