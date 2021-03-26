@@ -3,7 +3,7 @@
 require_once "config.php";
  
 // Define variables and initialize with empty values
-$username = $password = $confirm_password = "";
+$username = $password = $register =$confirm_password = "";
 $username_err = $password_err = $confirm_password_err = "";
  
 // Processing form data when form is submitted
@@ -41,6 +41,13 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         // Close statement
         mysqli_stmt_close($stmt);
     }
+
+     // Validate register
+     if(empty(trim($_POST["register"]))){
+        $register_err = "Por favor ingresa una contraseña.";     
+    } else{
+        $register = trim($_POST["register"]);
+    }
     
     // Validate password
     if(empty(trim($_POST["password"]))){
@@ -65,14 +72,15 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
         // Prepare an insert statement
-        $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
+        $sql = "INSERT INTO users (username, password, register) VALUES (?, ?, ?)";
          
         if($stmt = mysqli_prepare($link, $sql)){
             // Bind variables to the prepared statement as parameters
-            mysqli_stmt_bind_param($stmt, "ss", $param_username, $param_password);
+            mysqli_stmt_bind_param($stmt, "sss", $param_username, $param_password,  $param_register);
             
             // Set parameters
             $param_username = $username;
+            $param_register = $register;
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
             
             // Attempt to execute the prepared statement
@@ -124,6 +132,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
                 <span class="help-block"><?php echo $confirm_password_err; ?></span>
             </div>
+            <input type="hidden" name="register" class="form-control" value="true">
+
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Ingresar">
                 <input type="reset" class="btn btn-default" value="Borrar">

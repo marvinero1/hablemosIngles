@@ -1,4 +1,16 @@
-﻿﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+﻿﻿<?php
+// Initialize the session
+session_start();
+ 
+// Check if the user is logged in, if not then redirect him to login page
+if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
+    header("location: login.php");
+    exit;
+    
+}
+?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
 <!--hppage status="protected"-->
 <html xmlns="http://www.w3.org/1999/xhtml" version="XHTML+RDFa 1.0" xmlns:og="http://ogp.me/ns#" xml:lang="en">
 
@@ -68,10 +80,7 @@
         <div id="jquery_jplayer_1" class="jp-jplayer"></div>
         <div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
             <div class="jp-type-playlist">
-          
                 <div class="jp-gui jp-interface">
-
-
                     <div class="jp-controls">
                         <button class="jp-previous" role="button" tabindex="0"
                             style="width: 16px !important;padding-right: 23px;">previous</button>
@@ -126,20 +135,19 @@
             </div>
         </div>
     </div>
-    
-        <div style="float: right;" class=" ">
-            
-                <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
-                contraseña</a> -->
-                <a href="catalogo.html" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
-            
-            
-                <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
-                contraseña</a> -->
-                <a href="logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
-            
-        </div>
-   
+
+    <div style="float: right;" class=" ">
+        <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
+        contraseña</a> -->
+        <?php if ($_SESSION["id"] == '4'): ?>
+            <a href="crud/index.php" class="btn btn-success" style="color: white;display: inline-block;">Ver Usuarios</a>
+        <?php endif; ?>
+
+        <a href="catalogo.html" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
+        <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
+        contraseña</a> -->
+        <a href="logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
+    </div>
 
 
     <NOSCRIPT>To display this page you need a browser with JavaScript support.</NOSCRIPT>
