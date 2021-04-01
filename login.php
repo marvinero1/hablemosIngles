@@ -87,23 +87,33 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     mysqli_close($link);
 }
 ?>
- 
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Login Template</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/4.8.95/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="login.css">
 </head>
 <body>
-    <div class="wrapper" >
-        <h2>Login</h2>
-        <p>Por favor, complete sus credenciales para iniciar sesión.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+  <main class="d-flex align-items-center min-vh-100 py-3 py-md-0">
+    <div class="container">
+      <div class="card login-card">
+        <div class="row no-gutters">
+          <div class="col-md-5">
+            <img src="files/mobile-ext/backGroundImgURL.jpg" alt="login" class="login-card-img">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <div class="brand-wrapper">
+                <img src="files/mobile-ext/loadingPicture.png" alt="logo" class="logo">
+              </div>
+              <p class="login-card-description">Ingresa con tu Cuenta</p>
+              <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <label>Usuario</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
@@ -119,11 +129,46 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <!-- <p>¿No tienes una cuenta? <a href="register.php">Regístrate ahora</a>.</p> -->
         </form>
-    </div>   
-    <style>
-        body{
-            padding: 125px 350px 350px 510px;
-        }
-    </style> 
+                <!-- <a href="#!" class="forgot-password-link">Forgot password?</a>
+                <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+                <nav class="login-card-footer-nav">
+                  <a href="#!">Terms of use.</a>
+                  <a href="#!">Privacy policy</a>
+                </nav> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="card login-card">
+        <img src="assets/images/login.jpg" alt="login" class="login-card-img">
+        <div class="card-body">
+          <h2 class="login-card-title">Login</h2>
+          <p class="login-card-description">Sign in to your account to continue.</p>
+          <form action="#!">
+            <div class="form-group">
+              <label for="email" class="sr-only">Email</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <label for="password" class="sr-only">Password</label>
+              <input type="password" name="password" id="password" class="form-control" placeholder="Password">
+            </div>
+            <div class="form-prompt-wrapper">
+              <div class="custom-control custom-checkbox login-card-check-box">
+                <input type="checkbox" class="custom-control-input" id="customCheck1">
+                <label class="custom-control-label" for="customCheck1">Remember me</label>
+              </div>              
+              <a href="#!" class="text-reset">Forgot password?</a>
+            </div>
+            <input name="login" id="login" class="btn btn-block login-btn mb-4" type="button" value="Login">
+          </form>
+          <p class="login-card-footer-text">Don't have an account? <a href="#!" class="text-reset">Register here</a></p>
+        </div>
+      </div> -->
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
