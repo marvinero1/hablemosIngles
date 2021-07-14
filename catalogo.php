@@ -33,9 +33,20 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro Basico A</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm">
+                <div class="card" style="width: 14rem;">
+                    <img class="card-img-top" src="bookBasic_B/files/mobile/1.jpg" 
+                    alt="libro" style="width: 100%;">
+                    <div class="card-body">
+                      <h5 class="card-title">Libro Basico B</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
+                      <a href="bookBasic_B/index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div>
             </div>
@@ -44,19 +55,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="index.php" class="btn btn-primary">Ver Libro</a>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-md-4 col-sm">
-                <div class="card" style="width: 14rem;">
-                    <img class="card-img-top" src="caratula.jpg" 
-                    alt="libro" style="width: 100%;">
-                    <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 1-A</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div>
@@ -69,8 +69,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 1-B</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div> 
@@ -80,8 +80,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                   <img class="card-img-top" src="caratula.jpg" 
                   alt="libro" style="width: 100%;">
                   <div class="card-body">
-                    <h5 class="card-title">True Colors Basic</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <h5 class="card-title">Libro 2-A</h5>
+                    <p class="card-text">Acceso a libro y audio.</p>
                     <a href="index.php" class="btn btn-primary">Ver Libro</a>
                   </div>
                 </div> 
@@ -91,8 +91,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <img class="card-img-top" src="caratula.jpg" 
                 alt="libro" style="width: 100%;">
                 <div class="card-body">
-                  <h5 class="card-title">True Colors Basic</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <h5 class="card-title">Libro 2-B</h5>
+                  <p class="card-text">Acceso a libro y audio.</p>
                   <a href="index.php" class="btn btn-primary">Ver Libro</a>
                 </div>
               </div> 
@@ -104,8 +104,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 3-A</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div> 
@@ -115,8 +115,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 3-B</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div> 
@@ -126,8 +126,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 4-A</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div> 
@@ -137,8 +137,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                     <img class="card-img-top" src="caratula.jpg" 
                     alt="libro" style="width: 100%;">
                     <div class="card-body">
-                      <h5 class="card-title">True Colors Basic</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <h5 class="card-title">Libro 4-B</h5>
+                      <p class="card-text">Acceso a libro y audio.</p>
                       <a href="index.php" class="btn btn-primary">Ver Libro</a>
                     </div>
                   </div> 
