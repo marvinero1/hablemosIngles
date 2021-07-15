@@ -120,7 +120,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
                 <div class="card card-body collapse" id="collapseExample">
                     <div class="jp-playlist">
                         <ul style="background-color: lightblue;
-                    width: 190px;
+                    width: 174px;
                     height: 445px;
                     overflow: scroll;">
                             <li>&nbsp;</li>
@@ -139,14 +139,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div style="float: right;" class=" ">
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
-        
-
-        <a href="catalogo.php" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
+        <a href="/hablemosIngles/catalogo.php" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
-        <a href="logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
+        <a href="/hablemosIngles/logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
     </div>
-
 
     <NOSCRIPT>To display this page you need a browser with JavaScript support.</NOSCRIPT>
     <SCRIPT LANGUAGE="JavaScript">
@@ -197,467 +194,320 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             jPlayer: "#jquery_jplayer_1",
             cssSelectorAncestor: "#jp_container_1"
         }, [{
-                title: "Track 1",
-                mp3: "audios/Track_1.mp3",
-                oga: "audios/Track_1.mp3"
+                title: "Unidad 1 - pag 2",
+                mp3: "audios/01-Unit 1-pag 2.mp3",
+                oga: "audios/01-Unit 1-pag 2.mp3"
             },
             {
-                title: "Track 2",
-                mp3: "audios/Track_2.mp3",
-                oga: "audios/Track_2.mp3"
+                title: "Unidad 1 - pag 2",
+                mp3: "audios/02-Unit 1-pag 2.mp3",
+                oga: "audios/02-Unit 1-pag 2.mp3"
             },
             {
-                title: "Track 3",
-                mp3: "audios/Track_3.mp3",
-                oga: "audios/Track_3.mp3"
+                title: "Unidad 1 - pag 4",
+                mp3: "audios/03-Unit 1-pag 4.mp3",
+                oga: "audios/03-Unit 1-pag 4.mp3"
             },
             {
-                title: "Track 4",
-                mp3: "audios/Track_4.mp3",
-                oga: "audios/Track_.mp3"
+                title: "Unidad 1 - pag 4",
+                mp3: "audios/04-Unit 1-pag 4.mp3",
+                oga: "audios/04-Unit 1-pag 4.mp3"
             },
             {
-                title: "Track 5",
-                mp3: "audios/Track_5.mp3",
-                oga: "audios/Track_5.mp3"
+                title: "Unidad 1 - pag 4",
+                mp3: "audios/05-Unit 1-pag 4.mp3",
+                oga: "audios/05-Unit 1-pag 4.mp3"
             },
             {
-                title: "Track 6",
-                mp3: "audios/Track_6.mp3",
-                oga: "audios/Track_6.mp3"
+                title: "Unidad 1 - pag 4",
+                mp3: "audios/06-Unit 1-pag 4.mp3",
+                oga: "audios/06-Unit 1-pag 4.mp3"
             },
             {
-                title: "Track 7",
-                mp3: "audios/Track_7.mp3",
-                oga: "audios/Track_7.mp3"
+                title: "Unidad 1 - pag 7",
+                mp3: "audios/07-Unit 1-pag 7.mp3",
+                oga: "audios/07-Unit 1-pag 7.mp3"
             },
             {
-                title: "Track 8",
-                mp3: "audios/Track_8.mp3",
-                oga: "audios/Track_8.mp3"
+                title: "Unidad 1 - pag 7",
+                mp3: "audios/08-Unit 1-pag 7.mp3",
+                oga: "audios/08-Unit 1-pag 7.mp3"
             },
             {
-                title: "Track 9",
-                mp3: "audios/Track_9.mp3",
-                oga: "audios/Track_9.mp3"
+                title: "Unidad 1 - pag 8",
+                mp3: "audios/09-Unit 1-pag 8.mp3",
+                oga: "audios/09-Unit 1-pag 8.mp3"
             },
             {
-                title: "Track 10",
-                mp3: "audios/Track_10.mp3",
-                oga: "audios/Track_10.mp3"
+                title: "Unidad 1 - pag 10",
+                mp3: "audios/10-Unit 1-pag 10.mp3",
+                oga: "audios/10-Unit 1-pag 10.mp3"
             },
             {
-                title: "Track 11",
-                mp3: "audios/Track_11.mp3",
-                oga: "audios/Track_11.mp3"
-            }, {
-                title: "Track 12",
-                mp3: "audios/Track_12.mp3",
-                oga: "audios/Track_12.mp3"
+                title: "Unidad 1 - pag 10",
+                mp3: "audios/11-Unit 1-pag 10.mp3",
+                oga: "audios/11-Unit 1-pag 10.mp3"
             },
             {
-                title: "Track 13",
-                mp3: "audios/Track_13.mp3",
-                oga: "audios/Track_13.mp3"
+                title: "Unidad 1 - pag 10",
+                mp3: "audios/12-Unit 1-pag 10.mp3",
+                oga: "audios/12-Unit 1-pag 10.mp3"
             },
             {
-                title: "Track 14",
-                mp3: "audios/Track_14.mp3",
-                oga: "audios/Track_14.mp3"
+                title: "Unidad 1 - pag 10",
+                mp3: "audios/13-Unit 1-pag 10.mp3",
+                oga: "audios/13-Unit 1-pag 10.mp3"
             },
             {
-                title: "Track 15",
-                mp3: "audios/Track_15.mp3",
-                oga: "audios/Track_15.mp3"
-            }, {
-                title: "Track 16",
-                mp3: "audios/Track_16.mp3",
-                oga: "audios/Track_16.mp3"
+                title: "Unidad 1 - pag 10",
+                mp3: "audios/14-Unit 1-pag 10.mp3",
+                oga: "audios/14-Unit 1-pag 10.mp3"
             },
             {
-                title: "Track 17",
-                mp3: "audios/Track_17.mp3",
-                oga: "audios/Track_17.mp3"
+                title: "Unidad 1 - pag 11",
+                mp3: "audios/15-Unit 1-pag 11.mp3",
+                oga: "audios/15-Unit 1-pag 11.mp3"
             },
             {
-                title: "Track 18",
-                mp3: "audios/Track_18.mp3",
-                oga: "audios/Track_18.mp3"
+                title: "Unidad 1 - pag 11",
+                mp3: "audios/16-Unit 1-pag 11.mp3",
+                oga: "audios/16-Unit 1-pag 11.mp3"
             },
             {
-                title: "Track 19",
-                mp3: "audios/Track_19.mp3",
-                oga: "audios/Track_19.mp3"
-            }, {
-                title: "Track 20",
-                mp3: "audios/Track_20.mp3",
-                oga: "audios/Track_20.mp3"
-            },
-            {
-                title: "Track 21",
-                mp3: "audios/Track_21.mp3",
-                oga: "audios/Track_21.mp3"
-            },
-            {
-                title: "Track 22",
-                mp3: "audios/Track_22.mp3",
-                oga: "audios/Track_22.mp3"
-            },
-            {
-                title: "Track 23",
-                mp3: "audios/Track_23mp3",
-                oga: "audios/Track_23.mp3"
-            },
-            {
-                title: "Track 24",
-                mp3: "audios/Track_24.mp3",
-                oga: "audios/Track_24.mp3"
-            },
-            {
-                title: "Track 25",
-                mp3: "audios/Track_25.mp3",
-                oga: "audios/Track_25.mp3"
-            },
-            {
-                title: "Track 26",
-                mp3: "audios/Track_26.mp3",
-                oga: "audios/Track_26.mp3"
-            },
-            {
-                title: "Track 27",
-                mp3: "audios/Track_27.mp3",
-                oga: "audios/Track_27.mp3"
-            },
-            {
-                title: "Track 28",
-                mp3: "audios/Track_28.mp3",
-                oga: "audios/Track_28.mp3"
-            },
-            {
-                title: "Track 29",
-                mp3: "audios/Track_29.mp3",
-                oga: "audios/Track_29.mp3"
-            },
-            {
-                title: "Track 30",
-                mp3: "audios/Track_30.mp3",
-                oga: "audios/Track_30.mp3"
-            },
-            {
-                title: "Track 31",
-                mp3: "audios/Track_31.mp3",
-                oga: "audios/Track_31.mp3"
-            },
-            {
-                title: "Track 32",
-                mp3: "audios/Track_32.mp3",
-                oga: "audios/Track_32.mp3"
-            },
-            {
-                title: "Track 33",
-                mp3: "audios/Track_33.mp3",
-                oga: "audios/Track_33.mp3"
-            },
-            {
-                title: "Track 34",
-                mp3: "audios/Track_334.mp3",
-                oga: "audios/Track_34.mp3"
-            },
-            {
-                title: "Track 35",
-                mp3: "audios/Track_35.mp3",
-                oga: "audios/Track_35.mp3"
-            },
-            {
-                title: "Track 36",
-                mp3: "audios/Track_36.mp3",
-                oga: "audios/Track_36.mp3"
-            },
-            {
-                title: "Track 37",
-                mp3: "audios/Track_37.mp3",
-                oga: "audios/Track_37.mp3"
-            },
-            {
-                title: "Track 38",
-                mp3: "audios/Track_38.mp3",
-                oga: "audios/Track_38.mp3"
-            },
-            {
-                title: "Track 39",
-                mp3: "audios/Track_39.mp3",
-                oga: "audios/Track_39.mp3"
-            },
-            {
-                title: "Track 40",
-                mp3: "audios/Track_40.mp3",
-                oga: "audios/Track_40.mp3"
-            },
-            {
-                title: "Track 41",
-                mp3: "audios/Track_41.mp3",
-                oga: "audios/Track_41.mp3"
-            },
-            {
-                title: "Track 42",
-                mp3: "audios/Track_42.mp3",
-                oga: "audios/Track_42.mp3"
-            },
-            {
-                title: "Track 43",
-                mp3: "audios/Track_43.mp3",
-                oga: "audios/Track_43.mp3"
-            },
-            {
-                title: "Track 44",
-                mp3: "audios/Track_44.mp3",
-                oga: "audios/Track_44.mp3"
-            },
-            {
-                title: "Track 45",
-                mp3: "audios/Track_45.mp3",
-                oga: "audios/Track_45.mp3"
-            },
-            {
-                title: "Track 46",
-                mp3: "audios/Track_46.mp3",
-                oga: "audios/Track_46.mp3"
-            },
-            {
-                title: "Track 47",
-                mp3: "audios/Track_47.mp3",
-                oga: "audios/Track_47.mp3"
-            },
-            {
-                title: "Track 48",
-                mp3: "audios/Track_48.mp3",
-                oga: "audios/Track_48.mp3"
-            },
-            {
-                title: "Track 49",
-                mp3: "audios/Track_49.mp3",
-                oga: "audios/Track_49.mp3"
-            },
-            {
-                title: "Track 50",
-                mp3: "audios/Track_50.mp3",
-                oga: "audios/Track_50.mp3"
-            },
-            {
-                title: "Track 51",
-                mp3: "audios/Track_51.mp3",
-                oga: "audios/Track_51.mp3"
-            },
-            {
-                title: "Track 52",
-                mp3: "audios/Track_52.mp3",
-                oga: "audios/Track_52.mp3"
-            },
-            {
-                title: "Track 53",
-                mp3: "audios/Track_53.mp3",
-                oga: "audios/Track_53.mp3"
-            },
-            {
-                title: "Track 54",
-                mp3: "audios/Track_54.mp3",
-                oga: "audios/Track_54.mp3"
-            },
-            {
-                title: "Track 55",
-                mp3: "audios/Track_55.mp3",
-                oga: "audios/Track_55.mp3"
-            },
-            {
-                title: "Track 56",
-                mp3: "audios/Track_56.mp3",
-                oga: "audios/Track_56.mp3"
-            },
-            {
-                title: "Track 57",
-                mp3: "audios/Track_57.mp3",
-                oga: "audios/Track_57.mp3"
-            },
-            {
-                title: "Track 58",
-                mp3: "audios/Track_58.mp3",
-                oga: "audios/Track_58.mp3"
-            },
-            {
-                title: "Track 59",
-                mp3: "audios/Track_59.mp3",
-                oga: "audios/Track_59.mp3"
-            },
-            {
-                title: "Track 60",
-                mp3: "audios/Track_60.mp3",
-                oga: "audios/Track_60.mp3"
-            },
-            {
-                title: "Track 61",
-                mp3: "audios/Track_61.mp3",
-                oga: "audios/Track_61.mp3"
-            },
-            {
-                title: "Track 62",
-                mp3: "audios/Track_62.mp3",
-                oga: "audios/Track_62.mp3"
-            },
-            {
-                title: "Track 63",
-                mp3: "audios/Track_63.mp3",
-                oga: "audios/Track_63.mp3"
-            },
-            {
-                title: "Track 64",
-                mp3: "audios/Track_64.mp3",
-                oga: "audios/Track_64.mp3"
-            },
-            {
-                title: "Track 65",
-                mp3: "audios/Track_65.mp3",
-                oga: "audios/Track_65.mp3"
-            },
-            {
-                title: "Track 66",
-                mp3: "audios/Track_66.mp3",
-                oga: "audios/Track_66.mp3"
-            },
-            {
-                title: "Track 67",
-                mp3: "audios/Track_67.mp3",
-                oga: "audios/Track_67.mp3"
-            },
-            {
-                title: "Track 68",
-                mp3: "audios/Track_68.mp3",
-                oga: "audios/Track_68.mp3"
-            },
-            {
-                title: "Track 69",
-                mp3: "audios/Track_69.mp3",
-                oga: "audios/Track_69.mp3"
-            },
-            {
-                title: "Track 70",
-                mp3: "audios/Track_70.mp3",
-                oga: "audios/Track_70.mp3"
-            },
-            {
-                title: "Track 71",
-                mp3: "audios/Track_71.mp3",
-                oga: "audios/Track_71.mp3"
-            },
-            {
-                title: "Track 72",
-                mp3: "audios/Track_72.mp3",
-                oga: "audios/Track_72.mp3"
-            },
-            {
-                title: "Track 73",
-                mp3: "audios/Track_73.mp3",
-                oga: "audios/Track_73.mp3"
-            },
-            {
-                title: "Track 74",
-                mp3: "audios/Track_74.mp3",
-                oga: "audios/Track_74.mp3"
-            },
-            {
-                title: "Track 75",
-                mp3: "audios/Track_75.mp3",
-                oga: "audios/Track_75.mp3"
-            },
-            {
-                title: "Track 76",
-                mp3: "audios/Track_76.mp3",
-                oga: "audios/Track_76.mp3"
-            },
-            {
-                title: "Track 77",
-                mp3: "audios/Track_77.mp3",
-                oga: "audios/Track_77.mp3"
-            },
-            {
-                title: "Track 78",
-                mp3: "audios/Track_78.mp3",
-                oga: "audios/Track_78.mp3"
-            },
-            {
-                title: "Track 79",
-                mp3: "audios/Track_79.mp3",
-                oga: "audios/Track_79.mp3"
-            },
-            {
-                title: "Track 80",
-                mp3: "audios/Track_80.mp3",
-                oga: "audios/Track_80.mp3"
-            },
-            {
-                title: "Track 81",
-                mp3: "audios/Track_81.mp3",
-                oga: "audios/Track_81.mp3"
-            },
-            {
-                title: "Track 82",
-                mp3: "audios/Track_82.mp3",
-                oga: "audios/Track_82.mp3"
-            },
-            {
-                title: "Track 83",
-                mp3: "audios/Track_83.mp3",
-                oga: "audios/Track_83.mp3"
-            },
-            {
-                title: "Track 84",
-                mp3: "audios/Track_84.mp3",
-                oga: "audios/Track_84.mp3"
-            },
-            {
-                title: "Track 85",
-                mp3: "audios/Track_85.mp3",
-                oga: "audios/Track_85.mp3"
-            },
-            {
-                title: "Track 86",
-                mp3: "audios/Track_86.mp3",
-                oga: "audios/Track_86.mp3"
-            },
-            {
-                title: "Track 87",
-                mp3: "audios/Track_87.mp3",
-                oga: "audios/Track_87.mp3"
-            },
-            {
-                title: "Track 88",
-                mp3: "audios/Track_88.mp3",
-                oga: "audios/Track_88.mp3"
-            },
-            {
-                title: "Track 89",
-                mp3: "audios/Track_89.mp3",
-                oga: "audios/Track_89.mp3"
-            },
-            {
-                title: "Track 90",
-                mp3: "audios/Track_90.mp3",
-                oga: "audios/Track_90.mp3"
-            },
-            {
-                title: "Track 91",
-                mp3: "audios/Track_91.mp3",
-                oga: "audios/Track_91.mp3"
-            },
-            {
-                title: "Track 92",
-                mp3: "audios/Track_92.mp3",
-                oga: "audios/Track_92.mp3"
-            },
-            {
-                title: "Parte 2",
-
+                title: "Unidad 1 - pag 11",
+                mp3: "audios/17-Unit 1-pag 11.mp3",
+                oga: "audios/17-Unit 1-pag 11.mp3"
             },
 
+
+            {
+                title: "Unidad 2 - pag 14",
+                mp3: "audios/18-Unit 2-pag 14.mp3",
+                oga: "audios/18-Unit 2-pag 14.mp3"
+            },  
+            {
+                title: "Unidad 2 - pag 17",
+                mp3: "audios/19-Unit 2-pag 17.mp3",
+                oga: "audios/19-Unit 2-pag 17.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 17",
+                mp3: "audios/20-Unit 2-pag 17.mp3",
+                oga: "audios/20-Unit 2-pag 17.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 18",
+                mp3: "audios/21-Unit 2-pag 18.mp3",
+                oga: "audios/21-Unit 2-pag 18.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 19",
+                mp3: "audios/22-Unit 2-pag 19.mp3",
+                oga: "audios/22-Unit 2-pag 19.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 21",
+                mp3: "audios/23-Unit 2-pag 21.mp3",
+                oga: "audios/23-Unit 2-pag 21.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 21",
+                mp3: "audios/24-Unit 2-pag 21.mp3",
+                oga: "audios/24-Unit 2-pag 21.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 22",
+                mp3: "audios/25-Unit 2-pag 22.mp3",
+                oga: "audios/25-Unit 2-pag 22.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 23",
+                mp3: "audios/26-Unit 2-pag 23.mp3",
+                oga: "audios/26-Unit 2-pag 23.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 23",
+                mp3: "audios/27-Unit 2-pag 23.mp3",
+                oga: "audios/27-Unit 2-pag 23.mp3"
+            },
+            {
+                title: "Unidad 2 - pag 24",
+                mp3: "audios/28-Unit 2-pag 24.mp3",
+                oga: "audios/28-Unit 2-pag 24.mp3"
+            },
+            
+            
+            {
+                title: "Unidad 3 - pag 26",
+                mp3: "audios/29-Unit 3-pag 26.mp3",
+                oga: "audios/29-Unit 3-pag 26.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 29",
+                mp3: "audios/30-Unit 3-pag 29.mp3",
+                oga: "audios/30-Unit 3-pag 29.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 29",
+                mp3: "audios/31-Unit 3-pag 29.mp3",
+                oga: "audios/31-Unit 3-pag 29.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 29",
+                mp3: "audios/32-Unit 3-pag 29.mp3",
+                oga: "audios/32-Unit 3-pag 29.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 30",
+                mp3: "audios/33-Unit 3-pag 30.mp3",
+                oga: "audios/33-Unit 3-pag 30.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 30",
+                mp3: "audios/34-Unit 3-pag 30.mp3",
+                oga: "audios/34-Unit 3-pag 30.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 31",
+                mp3: "audios/35-Unit 3-pag 31.mp3",
+                oga: "audios/35-Unit 3-pag 31.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 31",
+                mp3: "audios/36-Unit 3-pag 31.mp3",
+                oga: "audios/36-Unit 3-pag 31.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 32",
+                mp3: "audios/37-Unit 3-pag 32.mp3",
+                oga: "audios/37-Unit 3-pag 32.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 34",
+                mp3: "audios/38-Unit 3-pag 34.mp3",
+                oga: "audios/38-Unit 3-pag 34.mp3"
+            },
+            {
+                title: "Unidad 3 - pag 34",
+                mp3: "audios/39-Unit 3-pag 34.mp3",
+                oga: "audios/39-Unit 3-pag 34.mp3"
+            },
+            
+
+
+            {
+                title: "Unidad 4 - pag 38",
+                mp3: "audios/40-Unit 4-pag 38.mp3",
+                oga: "audios/40-Unit 4-pag 38.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 40",
+                mp3: "audios/41-Unit 4-pag 40.mp3",
+                oga: "audios/41-Unit 4-pag 40.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 40",
+                mp3: "audios/42-Unit 4-pag 40.mp3",
+                oga: "audios/42-Unit 4-pag 40.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 41",
+                mp3: "audios/43-Unit 4-pag 41.mp3",
+                oga: "audios/43-Unit 4-pag 41.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 41",
+                mp3: "audios/44-Unit 4-pag 41.mp3",
+                oga: "audios/44-Unit 4-pag 41.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 42",
+                mp3: "audios/45-Unit 4-pag 42.mp3",
+                oga: "audios/45-Unit 4-pag 42.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 42",
+                mp3: "audios/46-Unit 4-pag 42.mp3",
+                oga: "audios/46-Unit 4-pag 42.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 43",
+                mp3: "audios/47-Unit 4-pag 43.mp3",
+                oga: "audios/47-Unit 4-pag 43.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 44",
+                mp3: "audios/48-Unit 4-pag 44.mp3",
+                oga: "audios/48-Unit 4-pag 44.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 45",
+                mp3: "audios/49-Unit 4-pag 45.mp3",
+                oga: "audios/49-Unit 4-pag 45.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 46",
+                mp3: "audios/50-Unit 4-pag 46.mp3",
+                oga: "audios/50-Unit 4-pag 46.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 46",
+                mp3: "audios/51-Unit 4-pag 46.mp3",
+                oga: "audios/51-Unit 4-pag 46.mp3"
+            },
+            {
+                title: "Unidad 4 - pag 47",
+                mp3: "audios/52-Unit 4-pag 47.mp3",
+                oga: "audios/52-Unit 4-pag 47.mp3"
+            },
+
+
+
+            {
+                title: "Unidad 5 - pag 50",
+                mp3: "audios/53-Unit 5-pag 50.mp3",
+                oga: "audios/53-Unit 5-pag 50.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 54",
+                mp3: "audios/54-Unit 5-pag 54.mp3",
+                oga: "audios/54-Unit 5-pag 54.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 54",
+                mp3: "audios/55-Unit 5-pag 54.mp3",
+                oga: "audios/55-Unit 5-pag 54.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 54",
+                mp3: "audios/56-Unit 5-pag 54.mp3",
+                oga: "audios/56-Unit 5-pag 54.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 54",
+                mp3: "audios/57-Unit 5-pag 54.mp3",
+                oga: "audios/57-Unit 5-pag 54.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 57",
+                mp3: "audios/58-Unit 5-pag 57.mp3",
+                oga: "audios/58-Unit 5-pag 57.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 57",
+                mp3: "audios/59-Unit 5-pag 57.mp3",
+                oga: "audios/59-Unit 5-pag 57.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 57",
+                mp3: "audios/60-Unit 5-pag 57.mp3",
+                oga: "audios/60-Unit 5-pag 57.mp3"
+            },
+            {
+                title: "Unidad 1 - pag 58",
+                mp3: "audios/61-Unit 5-pag 58.mp3",
+                oga: "audios/61-Unit 5-pag 58.mp3"
+            },
         ], {
             swfPath: "../../dist/jplayer",
             supplied: "oga, mp3",
@@ -671,5 +521,4 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     });
     //]]>
 </script>
-
 </html>
