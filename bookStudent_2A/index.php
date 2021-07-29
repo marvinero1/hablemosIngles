@@ -139,10 +139,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div style="float: right;" class=" ">
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
-        <a href="/hablemosIngles/catalogo.php" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
+        <a href="/catalogo.php" class="btn btn-warning" style="color: white;display: inline-block;">Atras</a>
         <!-- <a href="reset-password.php" class="btn btn-warning" style="color: white;">Cambia tu
         contraseña</a> -->
-        <a href="/hablemosIngles/logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
+        <a href="/logout.php" class="btn btn-danger" style="color: white;display: inline-block;">Salir</a>
     </div>
 
     <NOSCRIPT>To display this page you need a browser with JavaScript support.</NOSCRIPT>
