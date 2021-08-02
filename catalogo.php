@@ -133,6 +133,159 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           </div>
         </div><br>
       </div>
+      <div class="row">
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_1/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 1</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_1/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_1wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 1 WP </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_1wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_2/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 2</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_2/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_2wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 2 wp</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_2wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div><br>
+      </div>
+    </div><hr>
+    <div class="row">
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_3/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 3</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_3/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_3wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 3 WP </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_3wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_4/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 4 </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_4/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_4wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 4 WP </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_4wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div><br>
+      </div>
+    </div><hr>
+    <div class="row">
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_5/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 5 </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_5/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_5wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 5 WP </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_5wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_6/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 6 </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_6/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_6wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro 6 WP </h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_6wp/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div><br>
+      </div>
+    </div><hr>
+    <div class="row">
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_Starter/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro Starter</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_Starter/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_Starter 2/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro Starter 2</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_Starter 2/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+  
+    </div><hr>
+
+
+     
+
     </div>
     <hr>
   </div>
