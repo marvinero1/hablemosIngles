@@ -166,23 +166,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
               <a href="Everybody_6/index.php" class="btn btn-primary">Ver Libro</a>
             </div>
           </div>
-       
         </div>
-      </div><hr>
-  
+      </div>
+      <hr>
 
-    
-
-   
-
-    <div class="row">
-
-   
-
-    
-    
+    <div class="row">   
       <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
+        <div class="card" style="width: 13rem;">
           <img class="card-img-top" src="Everybody_6wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
             <h5 class="card-title">Libro 6 WP </h5>

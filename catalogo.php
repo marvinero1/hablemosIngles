@@ -32,7 +32,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   <div class="container p-4">
       <div class="row">
      
-        <div class="col-md-9 col-sm">
+        <div class="col-md-9 col-md">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="caratula.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
@@ -41,10 +41,10 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           </div>
         </div>
       </div>
-      
-        <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="caratula.jpg" alt="libro" style="width: 100%;">
+     
+      <div class="col-md-3 col-md">
+        <div class="card" style="width: 14rem;text-aling:center;">
+          <img class="card-img-top" src=" Everybody_Starter/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
             <h5 class="card-title">Catalogo de libros</h5>
             <a href="catalogo_Everybody.php" class="btn btn-primary">Everybody</a>
