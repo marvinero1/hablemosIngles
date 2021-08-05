@@ -114,8 +114,19 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         </div><br>
       </div>
     </div><hr>
-    <div class="row">
-      <div class="col-md-4 col-sm">
+
+    
+
+    
+    <div class="row" style="text-align:center;">
+     
+      
+      <div class="col-md-3 col-sm">
+        
+           
+      </div>
+
+      <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="bookStudent_4A/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
@@ -125,7 +136,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           </div>
         </div>
       </div>
-      <div class="col-md-4 col-sm">
+         <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="bookStudent_4B/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
@@ -134,13 +145,13 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <a href="bookStudent_4B/index.php" class="btn btn-primary">Ver Libro</a>
           </div>
         </div><br>
-      </div>
-      <hr>
-
-
-     
-
+           
+        </div>
     </div>
+    
+    </div>
+    
+    
     <hr>
   </div>
 </body>

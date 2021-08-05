@@ -197,568 +197,568 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             jPlayer: "#jquery_jplayer_1",
             cssSelectorAncestor: "#jp_container_1"
         }, [{
-                title: "Unidad  Starter Track 1 ",
+                title: "U. Starter Track 1 ",
                 mp3: "audios/1.mp3",
                 oga: "audios/1.mp3"
             },
             {
-                title: "Unidad  Starter Track 2 ",
+                title: "U. Starter Track 2 ",
                 mp3: "audios/2.mp3",
                 oga: "audios/2.mp3"
             },
             {
-                title: "Unidad  Starter Track 3 ",
+                title: "U. Starter Track 3 ",
                 mp3: "audios/3.mp3",
                 oga: "audios/3.mp3"
             },
             {
-                title: "Unidad  Starter Track 4 ",
+                title: "U. Starter Track 4 ",
                 mp3: "audios/4.mp3",
                 oga: "audios/4.mp3"
             },
             {
-                title: "Unidad  Starter Track 5 ",
+                title: "U. Starter Track 5 ",
                 mp3: "audios/5.mp3",
                 oga: "audios/5.mp3"
             },
             {
-                title: "Unidad  Starter Track 6 ",
+                title: "U. Starter Track 6 ",
                 mp3: "audios/6.mp3",
                 oga: "audios/6.mp3"
             },
             {
-                title: "Unidad  Starter Track 7 ",
+                title: "U. Starter Track 7 ",
                 mp3: "audios/7.mp3",
                 oga: "audios/7.mp3"
             },
             {
-                title: "Unidad  Starter Track 8 ",
+                title: "U. Starter Track 8 ",
                 mp3: "audios/8.mp3",
                 oga: "audios/8.mp3"
             },
             {
-                title: "Unidad  Starter Track 9 ",
+                title: "U. Starter Track 9 ",
                 mp3: "audios/9.mp3",
                 oga: "audios/9.mp3"
             },
             {
-                title: "Unidad  Starter Track 10 ",
+                title: "U. Starter Track 10 ",
                 mp3: "audios/10.mp3",
                 oga: "audios/10.mp3"
             },
             {
-                title: "Unidad  Starter Track 11 ",
+                title: "U. Starter Track 11 ",
                 mp3: "audios/11.mp3",
                 oga: "audios/11.mp3"
             },
             {
-                title: "Unidad  Starter Track 12 ",
+                title: "U. Starter Track 12 ",
                 mp3: "audios/12.mp3",
                 oga: "audios/12.mp3"
             },
             {
-                title: "Unidad  Starter Track 13 ",
+                title: "U. Starter Track 13 ",
                 mp3: "audios/13.mp3",
                 oga: "audios/13.mp3"
             },
             {
-                title: "Unidad  Starter Track 14 ",
+                title: "U. Starter Track 14 ",
                 mp3: "audios/14.mp3",
                 oga: "audios/14.mp3"
             },
             {
-                title: "Unidad  Starter Track 15 ",
+                title: "U. Starter Track 15 ",
                 mp3: "audios/15.mp3",
                 oga: "audios/15.mp3"
             },
             {
-                title: "Unidad  Starter Track 16 ",
+                title: "U. Starter Track 16 ",
                 mp3: "audios/16.mp3",
                 oga: "audios/16.mp3"
             },
             {
-                title: "Unidad  Starter Track 17 ",
+                title: "U. Starter Track 17 ",
                 mp3: "audios/17.mp3",
                 oga: "audios/17.mp3"
             },
             {
-                title: "Unidad  Starter Track 18 ",
+                title: "U. Starter Track 18 ",
                 mp3: "audios/18.mp3",
                 oga: "audios/18.mp3"
             },
             {
-                title: "Unidad  Starter Track 19 ",
+                title: "U. Starter Track 19 ",
                 mp3: "audios/19.mp3",
                 oga: "audios/19.mp3"
             },
             {
-                title: "Unidad  Starter Track 20 ",
+                title: "U. Starter Track 20 ",
                 mp3: "audios/20.mp3",
                 oga: "audios/20.mp3"
             },
             {
-                title: "Unidad  Starter Track 21 ",
+                title: "U. Starter Track 21 ",
                 mp3: "audios/21.mp3",
                 oga: "audios/21.mp3"
             },
             {
-                title: "Unidad  Starter Track 22 ",
+                title: "U. Starter Track 22 ",
                 mp3: "audios/22.mp3",
                 oga: "audios/22.mp3"
             },
             {
-                title: "Unidad  Starter Track 23 ",
+                title: "U. Starter Track 23 ",
                 mp3: "audios/23.mp3",
                 oga: "audios/23.mp3"
             },
             {
-                title: "Unidad  Starter Track 24 ",
+                title: "U. Starter Track 24 ",
                 mp3: "audios/24.mp3",
                 oga: "audios/24.mp3"
             },
             {
-                title: "Unidad  Starter Track 25 ",
+                title: "U. Starter Track 25 ",
                 mp3: "audios/25.mp3",
                 oga: "audios/25.mp3"
             },
             {
-                title: "Unidad  Starter Track 26 ",
+                title: "U. Starter Track 26 ",
                 mp3: "audios/26.mp3",
                 oga: "audios/26.mp3"
             },
             {
-                title: "Unidad  Starter Track 27 ",
+                title: "U. Starter Track 27 ",
                 mp3: "audios/27.mp3",
                 oga: "audios/27.mp3"
             },
             {
-                title: "Unidad  Starter Track 28 ",
+                title: "U. Starter Track 28 ",
                 mp3: "audios/28.mp3",
                 oga: "audios/28.mp3"
             },
             {
-                title: "Unidad  Starter Track 29 ",
+                title: "U. Starter Track 29 ",
                 mp3: "audios/29.mp3",
                 oga: "audios/29.mp3"
             },
             {
-                title: "Unidad  Starter Track 30 ",
+                title: "U. Starter Track 30 ",
                 mp3: "audios/30.mp3",
                 oga: "audios/30.mp3"
             },
             {
-                title: "Unidad  Starter Track 31 ",
+                title: "U. Starter Track 31 ",
                 mp3: "audios/31.mp3",
                 oga: "audios/31.mp3"
             },
             {
-                title: "Unidad  Starter Track 32 ",
+                title: "U. Starter Track 32 ",
                 mp3: "audios/32.mp3",
                 oga: "audios/32.mp3"
             },
             {
-                title: "Unidad  Starter Track 33 ",
+                title: "U. Starter Track 33 ",
                 mp3: "audios/33.mp3",
                 oga: "audios/33.mp3"
             },
             {
-                title: "Unidad  Starter Track 34 ",
+                title: "U. Starter Track 34 ",
                 mp3: "audios/34.mp3",
                 oga: "audios/34.mp3"
             },
             {
-                title: "Unidad  Starter Track 35 ",
+                title: "U. Starter Track 35 ",
                 mp3: "audios/35.mp3",
                 oga: "audios/35.mp3"
             },
             {
-                title: "Unidad  Starter Track 36 ",
+                title: "U. Starter Track 36 ",
                 mp3: "audios/36.mp3",
                 oga: "audios/36.mp3"
             },
             {
-                title: "Unidad  Starter Track 37 ",
+                title: "U. Starter Track 37 ",
                 mp3: "audios/37.mp3",
                 oga: "audios/37.mp3"
             },
             {
-                title: "Unidad  Starter Track 38 ",
+                title: "U. Starter Track 38 ",
                 mp3: "audios/38.mp3",
                 oga: "audios/38.mp3"
             },
             {
-                title: "Unidad  Starter Track 39 ",
+                title: "U. Starter Track 39 ",
                 mp3: "audios/39.mp3",
                 oga: "audios/39.mp3"
             },
             {
-                title: "Unidad  Starter Track 40 ",
+                title: "U. Starter Track 40 ",
                 mp3: "audios/40.mp3",
                 oga: "audios/40.mp3"
             },
             {
-                title: "Unidad  Starter Track 41 ",
+                title: "U. Starter Track 41 ",
                 mp3: "audios/41.mp3",
                 oga: "audios/41.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 42 ",
+                title: "U. Starter Track 42 ",
                 mp3: "audios/42.mp3",
                 oga: "audios/42.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 43",
+                title: "U. Starter Track 43",
                 mp3: "audios/43.mp3",
                 oga: "audios/43.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 44 ",
+                title: "U. Starter Track 44 ",
                 mp3: "audios/44.mp3",
                 oga: "audios/44.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 45 ",
+                title: "U. Starter Track 45 ",
                 mp3: "audios/45.mp3",
                 oga: "audios/45.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 46 ",
+                title: "U. Starter Track 46 ",
                 mp3: "audios/46.mp3",
                 oga: "audios/46.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 47 ",
+                title: "U. Starter Track 47 ",
                 mp3: "audios/47.mp3",
                 oga: "audios/47.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 48 ",
+                title: "U. Starter Track 48 ",
                 mp3: "audios/48.mp3",
                 oga: "audios/48.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 49 ",
+                title: "U. Starter Track 49 ",
                 mp3: "audios/49.mp3",
                 oga: "audios/49.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 50 ",
+                title: "U. Starter Track 50 ",
                 mp3: "audios/50.mp3",
                 oga: "audios/50.mp3"
             },
             {
-                title: "Unidad  Starter Track 51 ",
+                title: "U. Starter Track 51 ",
                 mp3: "audios/51.mp3",
                 oga: "audios/51.mp3"
             },
             {
-                title: "Unidad  Starter Track 52 ",
+                title: "U. Starter Track 52 ",
                 mp3: "audios/52.mp3",
                 oga: "audios/52.mp3"
             },
             {
-                title: "Unidad  Starter Track 53 ",
+                title: "U. Starter Track 53 ",
                 mp3: "audios/53.mp3",
                 oga: "audios/53.mp3"
             },
             {
-                title: "Unidad  Starter Track 54 ",
+                title: "U. Starter Track 54 ",
                 mp3: "audios/54.mp3",
                 oga: "audios/54.mp3"
             },
             {
-                title: "Unidad  Starter Track 55 ",
+                title: "U. Starter Track 55 ",
                 mp3: "audios/55.mp3",
                 oga: "audios/55.mp3"
             },
             {
-                title: "Unidad  Starter Track 56 ",
+                title: "U. Starter Track 56 ",
                 mp3: "audios/56.mp3",
                 oga: "audios/56.mp3"
             },
             {
-                title: "Unidad  Starter Track 57 ",
+                title: "U. Starter Track 57 ",
                 mp3: "audios/57.mp3",
                 oga: "audios/57.mp3"
             },
             {
-                title: "Unidad  Starter Track 58 ",
+                title: "U. Starter Track 58 ",
                 mp3: "audios/58.mp3",
                 oga: "audios/58.mp3"
             },
             {
-                title: "Unidad  Starter Track 59 ",
+                title: "U. Starter Track 01 ", // esta es la presentacion
                 mp3: "audios/59.mp3",
                 oga: "audios/59.mp3"
             },
             {
-                title: "Unidad  Starter Track 60 ",
+                title: "U. Starter Track 02 ",
                 mp3: "audios/60.mp3",
                 oga: "audios/60.mp3"
             },
             {
-                title: "Unidad  Starter Track 61 ",
+                title: "U. Starter Track 03 ",
                 mp3: "audios/61.mp3",
                 oga: "audios/61.mp3"
             },
             {
-                title: "Unidad  Starter Track 62 ",
+                title: "U. Starter Track 04 ",
                 mp3: "audios/62.mp3",
                 oga: "audios/62.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 63 ",
+                title: "U. Starter Track 05 ",
                 mp3: "audios/63.mp3",
                 oga: "audios/63.mp3"
             },
 
             {
-                title: "Unidad  Starter Track 64 ",
+                title: "U. Starter Track 06 ",
                 mp3: "audios/64.mp3",
                 oga: "audios/64.mp3"
             }, 
             {
-                title: "Unidad  Starter Track 65 ",
+                title: "U. Starter Track 07 ",
                 mp3: "audios/65.mp3",
                 oga: "audios/65.mp3"
             },
             {
-                title: "Unidad  Starter Track 66 ",
+                title: "U. Starter Track 08 ",
                 mp3: "audios/66.mp3",
                 oga: "audios/66.mp3"
             },
             {
-                title: "Unidad  Starter Track 67 ",
+                title: "U. Starter Track 09 ",
                 mp3: "audios/67.mp3",
                 oga: "audios/67.mp3"
             },
             {
-                title: "Unidad  Starter Track 68",
+                title: "U. Starter Track 010",
                 mp3: "audios/68.mp3",
                 oga: "audios/68.mp3"
             },
             {
-                title: "Unidad  Starter Track 69 ",
+                title: "U. Starter Track 011 ",
                 mp3: "audios/69.mp3",
                 oga: "audios/69.mp3"
             },    
             {
-                title: "Unidad  Starter Track 70 ",
+                title: "U. Starter Track 012 ",
                 mp3: "audios/70.mp3",
                 oga: "audios/70.mp3"
             },  
             {
-                title: "Unidad  Starter Track 71 ",
+                title: "U. Starter Track 013 ",
                 mp3: "audios/71.mp3",
                 oga: "audios/71.mp3"
             },  
             {
-                title: "Unidad  Starter Track 72 ",
+                title: "U. Starter Track 014 ",
                 mp3: "audios/72.mp3",
                 oga: "audios/72.mp3"
             },  
             {
-                title: "Unidad  Starter Track 73 ",
+                title: "U. Starter Track 015 ",
                 mp3: "audios/73.mp3",
                 oga: "audios/73.mp3"
             },  
             {
-                title: "Unidad  Starter Track 74 ",
+                title: "U. Starter Track 016 ",
                 mp3: "audios/74.mp3",
                 oga: "audios/74.mp3"
             },  
             {
-                title: "Unidad  Starter Track 75 ",
+                title: "U. Starter Track 017 ",
                 mp3: "audios/75.mp3",
                 oga: "audios/75.mp3"
             },  
             {
-                title: "Unidad  Starter Track 76 ",
+                title: "U. Starter Track 018 ",
                 mp3: "audios/76.mp3",
                 oga: "audios/76.mp3"
             },  
             {
-                title: "Unidad  Starter Track 77 ",
+                title: "U. Starter Track 019 ",
                 mp3: "audios/77.mp3",
                 oga: "audios/77.mp3"
             },  
             {
-                title: "Unidad  Starter Track 78 ",
+                title: "U. Starter Track 020 ",
                 mp3: "audios/78.mp3",
                 oga: "audios/78.mp3"
             },  
             {
-                title: "Unidad  Starter Track 79 ",
+                title: "U. Starter Track 021 ",
                 mp3: "audios/79.mp3",
                 oga: "audios/79.mp3"
             },  
             {
-                title: "Unidad  Starter Track 80 ",
+                title: "U. Starter Track 022 ",
                 mp3: "audios/80.mp3",
                 oga: "audios/80.mp3"
             },  
             {
-                title: "Unidad  Starter Track 81 ",
+                title: "U. Starter Track 023 ",
                 mp3: "audios/81.mp3",
                 oga: "audios/81.mp3"
             },  
             {
-                title: "Unidad  Starter Track 82",
+                title: "U. Starter Track 024",
                 mp3: "audios/82.mp3",
                 oga: "audios/82.mp3"
             },  
             {
-                title: "Unidad  Starter Track 83 ",
+                title: "U. Starter Track 025 ",
                 mp3: "audios/83.mp3",
                 oga: "audios/83.mp3"
             },  
             {
-                title: "Unidad  Starter Track 84 ",
+                title: "U. Starter Track 026 ",
                 mp3: "audios/84.mp3",
                 oga: "audios/84.mp3"
             },  
             {
-                title: "Unidad  Starter Track 85 ",
+                title: "U. Starter Track 027 ",
                 mp3: "audios/85.mp3",
                 oga: "audios/85.mp3"
             },  
             {
-                title: "Unidad  Starter Track 86 ",
+                title: "U. Starter Track 028 ",
                 mp3: "audios/86.mp3",
                 oga: "audios/86.mp3"
             },  
             {
-                title: "Unidad  Starter Track 87 ",
+                title: "U. Starter Track 029",
                 mp3: "audios/87.mp3",
                 oga: "audios/87.mp3"
             },  
             {
-                title: "Unidad  Starter Track 88 ",
+                title: "U. Starter Track 030 ",
                 mp3: "audios/88.mp3",
                 oga: "audios/88.mp3"
             },  
             {
-                title: "Unidad  Starter Track 89 ",
+                title: "U. Starter Track 031 ",
                 mp3: "audios/89.mp3",
                 oga: "audios/89.mp3"
             },  
             {
-                title: "Unidad  Starter Track 90 ",
+                title: "U. Starter Track 032 ",
                 mp3: "audios/90.mp3",
                 oga: "audios/90.mp3"
             },  
             {
-                title: "Unidad  Starter Track 91 ",
+                title: "U. Starter Track 033 ",
                 mp3: "audios/91.mp3",
                 oga: "audios/91.mp3"
             },  
             {
-                title: "Unidad  Starter Track 92 ",
+                title: "U. Starter Track 034 ",
                 mp3: "audios/92.mp3",
                 oga: "audios/92.mp3"
             },  
             {
-                title: "Unidad  Starter Track 93 ",
+                title: "U. Starter Track 035 ",
                 mp3: "audios/93.mp3",
                 oga: "audios/93.mp3"
             },  
             {
-                title: "Unidad  Starter Track 94 ",
+                title: "U. Starter Track 036 ",
                 mp3: "audios/94.mp3",
                 oga: "audios/94.mp3"
             },  
             {
-                title: "Unidad  Starter Track 95 ",
+                title: "U. Starter Track 037 ",
                 mp3: "audios/95.mp3",
                 oga: "audios/95.mp3"
             },  
             {
-                title: "Unidad  Starter Track 96 ",
+                title: "U. Starter Track 038 ",
                 mp3: "audios/96.mp3",
                 oga: "audios/96.mp3"
             },  
             {
-                title: "Unidad  Starter Track 97 ",
+                title: "U. Starter Track 039 ",
                 mp3: "audios/97.mp3",
                 oga: "audios/97.mp3"
             },  
             {
-                title: "Unidad  Starter Track 98 ",
+                title: "U. Starter Track 040 ",
                 mp3: "audios/98.mp3",
                 oga: "audios/98.mp3"
             },  
             {
-                title: "Unidad  Starter Track 99 ",
+                title: "U. Starter Track 041 ",
                 mp3: "audios/99.mp3",
                 oga: "audios/99.mp3"
             },  
             {
-                title: "Unidad  Starter Track 100 ",
+                title: "U. Starter Track 042 ",
                 mp3: "audios/100.mp3",
                 oga: "audios/100.mp3"
             },
             {
-                title: "Unidad  Starter Track 101 ",
+                title: "U. Starter Track 043 ",
                 mp3: "audios/101.mp3",
                 oga: "audios/101.mp3"
             },
             {
-                title: "Unidad  Starter Track 102 ",
+                title: "U. Starter Track 044 ",
                 mp3: "audios/102.mp3",
                 oga: "audios/102.mp3"
             },
             {
-                title: "Unidad  Starter Track 103 ",
+                title: "U. Starter Track 045 ",
                 mp3: "audios/103.mp3",
                 oga: "audios/103.mp3"
             },
             {
-                title: "Unidad  Starter Track 104 ",
+                title: "U. Starter Track 046 ",
                 mp3: "audios/104.mp3",
                 oga: "audios/104.mp3"
             },
             {
-                title: "Unidad  Starter Track 105 ",
+                title: "U. Starter Track 047 ",
                 mp3: "audios/105.mp3",
                 oga: "audios/105.mp3"
             },
             {
-                title: "Unidad  Starter Track 106 ",
+                title: "U. Starter Track 048 ",
                 mp3: "audios/106.mp3",
                 oga: "audios/106.mp3"
             },
             {
-                title: "Unidad  Starter Track 107 ",
+                title: "U. Starter Track 049 ",
                 mp3: "audios/107.mp3",
                 oga: "audios/107.mp3"
             },
             {
-                title: "Unidad  Starter Track 108 ",
+                title: "U. Starter Track 050 ",
                 mp3: "audios/108.mp3",
                 oga: "audios/108.mp3"
             },
             {
-                title: "Unidad  Starter Track 109 ",
+                title: "U. Starter Track 051 ",
                 mp3: "audios/109.mp3",
                 oga: "audios/109.mp3"
             },
             {
-                title: "Unidad  Starter Track 110 ",
+                title: "U. Starter Track 052 ",
                 mp3: "audios/110.mp3",
                 oga: "audios/110.mp3"
             },
             {
-                title: "Unidad  Starter Track 111 ",
+                title: "U. Starter Track 053 ",
                 mp3: "audios/111.mp3",
                 oga: "audios/111.mp3"
             },

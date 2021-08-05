@@ -31,13 +31,26 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
   </div><br><br>
   <div class="container p-4">
       <div class="row">
-        <div class="col-md-6" style="text-align:center;">
-          <a href="catalogo_trueColors.php" class="btn btn-primary">True Color Books</a> 
-        </div>
-        <div class="col-md-6" style="text-align:center;">
-          <a href="catalogo_Everybody.php" class="btn btn-primary">Every body Books</a>
+     
+        <div class="col-md-9 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="caratula.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Catalogo de libros</h5>
+            <a href="catalogo_trueColors.php" class="btn btn-primary">True Color Books</a>
+          </div>
         </div>
       </div>
+      
+        <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="caratula.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Catalogo de libros</h5>
+            <a href="catalogo_Everybody.php" class="btn btn-primary">Everybody</a>
+          </div>
+        </div>
+      </div>      
   </div>
   <!-- <div class="container p-4">
     <div class="row">

@@ -38,6 +38,16 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
       <div class="row">
       <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
+          <img class="card-img-top" src="Everybody_Starter/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+          <div class="card-body">
+            <h5 class="card-title">Libro Starter</h5>
+            <p class="card-text">Acceso a libro y audio.</p>
+            <a href="Everybody_Starter/index.php" class="btn btn-primary">Ver Libro</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm">
+        <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="Everybody_1/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
             <h5 class="card-title">Libro 1</h5>
@@ -66,7 +76,11 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           </div>
         </div>
       </div>
-      <div class="col-md-3 col-sm">
+      
+    </div><hr>
+    <div class="row">
+      
+    <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="Everybody_2wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
           <div class="card-body">
@@ -76,8 +90,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
           </div>
         </div><br>
       </div>
-    </div><hr>
-    <div class="row">
       <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="Everybody_3/files/mobile/1.jpg" alt="libro" style="width: 100%;">
@@ -107,49 +119,68 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <a href="Everybody_4/index.php" class="btn btn-primary">Ver Libro</a>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_4wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro 4 WP </h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_4wp/index.php" class="btn btn-primary">Ver Libro</a>
-          </div>
-        </div><br>
-      </div>
+     
     </div><hr>
+
+
+
+
     <div class="row">
+      
       <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_5/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro 5 </h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_5/index.php" class="btn btn-primary">Ver Libro</a>
+          <div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="Everybody_4wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Libro 4 WP</h5>
+              <p class="card-text">Acceso a libro y audio.</p>
+              <a href="Everybody_4wp/index.php" class="btn btn-primary">Ver Libro</a>
+            </div>
+          </div><br>
+        </div>
+        <div class="col-md-3 col-sm">
+          <div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="Everybody_5/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Libro 5</h5>
+              <p class="card-text">Acceso a libro y audio.</p>
+              <a href="Everybody_5/index.php" class="btn btn-primary">Ver Libro</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_5wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro 5 WP </h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_5wp/index.php" class="btn btn-primary">Ver Libro</a>
+        <div class="col-md-3 col-sm">
+          <div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="Everybody_5wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Libro 5 WP </h5>
+              <p class="card-text">Acceso a libro y audio.</p>
+              <a href="Everybody_5wp/index.php" class="btn btn-primary">Ver Libro</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_6/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro 6 </h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_6/index.php" class="btn btn-primary">Ver Libro</a>
+        <div class="col-md-3 col-sm">
+          <div class="card" style="width: 14rem;">
+            <img class="card-img-top" src="Everybody_6/files/mobile/1.jpg" alt="libro" style="width: 100%;">
+            <div class="card-body">
+              <h5 class="card-title">Libro 6 </h5>
+              <p class="card-text">Acceso a libro y audio.</p>
+              <a href="Everybody_6/index.php" class="btn btn-primary">Ver Libro</a>
+            </div>
           </div>
+       
         </div>
-      </div>
+      </div><hr>
+  
+
+    
+
+   
+
+    <div class="row">
+
+   
+
+    
+    
       <div class="col-md-3 col-sm">
         <div class="card" style="width: 14rem;">
           <img class="card-img-top" src="Everybody_6wp/files/mobile/1.jpg" alt="libro" style="width: 100%;">
@@ -158,31 +189,9 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             <p class="card-text">Acceso a libro y audio.</p>
             <a href="Everybody_6wp/index.php" class="btn btn-primary">Ver Libro</a>
           </div>
-        </div><br>
-      </div>
-    </div><hr>
-    <div class="row">
-      <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_Starter/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro Starter</h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_Starter/index.php" class="btn btn-primary">Ver Libro</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3 col-sm">
-        <div class="card" style="width: 14rem;">
-          <img class="card-img-top" src="Everybody_Starter2/files/mobile/1.jpg" alt="libro" style="width: 100%;">
-          <div class="card-body">
-            <h5 class="card-title">Libro Starter 2</h5>
-            <p class="card-text">Acceso a libro y audio.</p>
-            <a href="Everybody_Starter2/index.php" class="btn btn-primary">Ver Libro</a>
-          </div>
-        </div>
-      </div>
+     
     </div>
+    
 </div>
 
     </div>

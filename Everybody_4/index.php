@@ -196,7 +196,8 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
         new jPlayerPlaylist({
             jPlayer: "#jquery_jplayer_1",
             cssSelectorAncestor: "#jp_container_1"
-        }, [{
+        }, [
+            {
                 title: "Unidad 4 Track 1 ",
                 mp3: "audios/1.mp3",
                 oga: "audios/1.mp3"
@@ -523,309 +524,309 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
             },
 
             {
-                title: "Unidad 4 Track 64 ",
-                mp3: "audios/64.mp3",
-                oga: "audios/64.mp3"
+                title: "Unidad 4 Track 01 ",
+                m4a: "audios/64.m4a",
+                oga: "audios/64.m4a"
             }, 
             {
-                title: "Unidad 4 Track 65 ",
-                mp3: "audios/65.mp3",
-                oga: "audios/65.mp3"
+                title: "Unidad 4 Track 02 ",
+                m4a: "audios/65.m4a",
+                oga: "audios/65.m4a"
             },
             {
-                title: "Unidad 4 Track 66 ",
-                mp3: "audios/66.mp3",
-                oga: "audios/66.mp3"
+                title: "Unidad 4 Track 03 ",
+                m4a: "audios/66.m4a",
+                oga: "audios/66.m4a"
             },
             {
-                title: "Unidad 4 Track 67 ",
-                mp3: "audios/67.mp3",
-                oga: "audios/67.mp3"
+                title: "Unidad 4 Track 04 ",
+                m4a: "audios/67.m4a",
+                oga: "audios/67.m4a"
             },
             {
-                title: "Unidad 4 Track 68",
-                mp3: "audios/68.mp3",
-                oga: "audios/68.mp3"
+                title: "Unidad 4 Track 05",
+                m4a: "audios/68.m4a",
+                oga: "audios/68.m4a"
             },
             {
-                title: "Unidad 4 Track 69 ",
-                mp3: "audios/69.mp3",
-                oga: "audios/69.mp3"
+                title: "Unidad 4 Track 06 ",
+                m4a: "audios/69.m4a",
+                oga: "audios/69.m4a"
             },    
             {
-                title: "Unidad 4 Track 70 ",
-                mp3: "audios/70.mp3",
-                oga: "audios/70.mp3"
+                title: "Unidad 4 Track 07 ",
+                m4a: "audios/70.m4a",
+                oga: "audios/70.m4a"
             },  
             {
-                title: "Unidad 4 Track 71 ",
-                mp3: "audios/71.mp3",
-                oga: "audios/71.mp3"
+                title: "Unidad 4 Track 08 ",
+                m4a: "audios/71.m4a",
+                oga: "audios/71.m4a"
             },  
             {
-                title: "Unidad 4 Track 72 ",
-                mp3: "audios/72.mp3",
-                oga: "audios/72.mp3"
+                title: "Unidad 4 Track 09 ",
+                m4a: "audios/72.m4a",
+                oga: "audios/72.m4a"
             },  
             {
-                title: "Unidad 4 Track 73 ",
-                mp3: "audios/73.mp3",
-                oga: "audios/73.mp3"
+                title: "Unidad 4 Track 010 ",
+                m4a: "audios/73.m4a",
+                oga: "audios/73.m4a"
             },  
             {
-                title: "Unidad 4 Track 74 ",
-                mp3: "audios/74.mp3",
-                oga: "audios/74.mp3"
+                title: "Unidad 4 Track 011 ",
+                m4a: "audios/74.m4a",
+                oga: "audios/74.m4a"
             },  
             {
-                title: "Unidad 4 Track 75 ",
-                mp3: "audios/75.mp3",
-                oga: "audios/75.mp3"
+                title: "Unidad 4 Track 012 ",
+                m4a: "audios/75.m4a",
+                oga: "audios/75.m4a"
             },  
             {
-                title: "Unidad 4 Track 76 ",
-                mp3: "audios/76.mp3",
-                oga: "audios/76.mp3"
+                title: "Unidad 4 Track 013 ",
+                m4a: "audios/76.m4a",
+                oga: "audios/76.m4a"
             },  
             {
-                title: "Unidad 4 Track 77 ",
-                mp3: "audios/77.mp3",
-                oga: "audios/77.mp3"
+                title: "Unidad 4 Track 014 ",
+                m4a: "audios/77.m4a",
+                oga: "audios/77.m4a"
             },  
             {
-                title: "Unidad 4 Track 78 ",
-                mp3: "audios/78.mp3",
-                oga: "audios/78.mp3"
+                title: "Unidad 4 Track 015 ",
+                m4a: "audios/78.m4a",
+                oga: "audios/78.m4a"
             },  
             {
-                title: "Unidad 4 Track 79 ",
-                mp3: "audios/79.mp3",
-                oga: "audios/79.mp3"
+                title: "Unidad 4 Track 016 ",
+                m4a: "audios/79.m4a",
+                oga: "audios/79.m4a"
             },  
             {
-                title: "Unidad 4 Track 80 ",
-                mp3: "audios/80.mp3",
-                oga: "audios/80.mp3"
+                title: "Unidad 4 Track 017 ",
+                m4a: "audios/80.m4a",
+                oga: "audios/80.m4a"
             },  
             {
-                title: "Unidad 4 Track 81 ",
-                mp3: "audios/81.mp3",
-                oga: "audios/81.mp3"
+                title: "Unidad 4 Track 018 ",
+                m4a: "audios/81.m4a",
+                oga: "audios/81.m4a"
             },  
             {
-                title: "Unidad 4 Track 82",
-                mp3: "audios/82.mp3",
-                oga: "audios/82.mp3"
+                title: "Unidad 4 Track 019",
+                m4a: "audios/82.m4a",
+                oga: "audios/82.m4a"
             },  
             {
-                title: "Unidad 4 Track 83 ",
-                mp3: "audios/83.mp3",
-                oga: "audios/83.mp3"
+                title: "Unidad 4 Track 020 ",
+                m4a: "audios/83.m4a",
+                oga: "audios/83.m4a"
             },  
             {
-                title: "Unidad 4 Track 84 ",
-                mp3: "audios/84.mp3",
-                oga: "audios/84.mp3"
+                title: "Unidad 4 Track 021 ",
+                m4a: "audios/84.m4a",
+                oga: "audios/84.m4a"
             },  
             {
-                title: "Unidad 4 Track 85 ",
-                mp3: "audios/85.mp3",
-                oga: "audios/85.mp3"
+                title: "Unidad 4 Track 022 ",
+                m4a: "audios/85.m4a",
+                oga: "audios/85.m4a"
             },  
             {
-                title: "Unidad 4 Track 86 ",
-                mp3: "audios/86.mp3",
-                oga: "audios/86.mp3"
+                title: "Unidad 4 Track 023 ",
+                m4a: "audios/86.m4a",
+                oga: "audios/86.m4a"
             },  
             {
-                title: "Unidad 4 Track 87 ",
-                mp3: "audios/87.mp3",
-                oga: "audios/87.mp3"
+                title: "Unidad 4 Track 024 ",
+                m4a: "audios/87.m4a",
+                oga: "audios/87.m4a"
             },  
             {
-                title: "Unidad 4 Track 88 ",
-                mp3: "audios/88.mp3",
-                oga: "audios/88.mp3"
+                title: "Unidad 4 Track 025 ",
+                m4a: "audios/88.m4a",
+                oga: "audios/88.m4a"
             },  
             {
-                title: "Unidad 4 Track 89 ",
-                mp3: "audios/89.mp3",
-                oga: "audios/89.mp3"
+                title: "Unidad 4 Track 026 ",
+                m4a: "audios/89.m4a",
+                oga: "audios/89.m4a"
             },  
             {
-                title: "Unidad 4 Track 90 ",
-                mp3: "audios/90.mp3",
-                oga: "audios/90.mp3"
+                title: "Unidad 4 Track 027 ",
+                m4a: "audios/90.m4a",
+                oga: "audios/90.m4a"
             },  
             {
-                title: "Unidad 4 Track 91 ",
-                mp3: "audios/91.mp3",
-                oga: "audios/91.mp3"
+                title: "Unidad 4 Track 028 ",
+                m4a: "audios/91.m4a",
+                oga: "audios/91.m4a"
             },  
             {
-                title: "Unidad 4 Track 92 ",
-                mp3: "audios/92.mp3",
-                oga: "audios/92.mp3"
+                title: "Unidad 4 Track 029 ",
+                m4a: "audios/92.m4a",
+                oga: "audios/92.m4a"
             },  
             {
-                title: "Unidad 4 Track 93 ",
-                mp3: "audios/93.mp3",
-                oga: "audios/93.mp3"
+                title: "Unidad 4 Track 030 ",
+                m4a: "audios/93.m4a",
+                oga: "audios/93.m4a"
             },  
             {
-                title: "Unidad 4 Track 94 ",
-                mp3: "audios/94.mp3",
-                oga: "audios/94.mp3"
+                title: "Unidad 4 Track 031 ",
+                m4a: "audios/94.m4a",
+                oga: "audios/94.m4a"
             },  
             {
-                title: "Unidad 4 Track 95 ",
-                mp3: "audios/95.mp3",
-                oga: "audios/95.mp3"
+                title: "Unidad 4 Track 032 ",
+                m4a: "audios/95.m4a",
+                oga: "audios/95.m4a"
             },  
             {
-                title: "Unidad 4 Track 96 ",
-                mp3: "audios/96.mp3",
-                oga: "audios/96.mp3"
+                title: "Unidad 4 Track 033 ",
+                m4a: "audios/96.m4a",
+                oga: "audios/96.m4a"
             },  
             {
-                title: "Unidad 4 Track 97 ",
-                mp3: "audios/97.mp3",
-                oga: "audios/97.mp3"
+                title: "Unidad 4 Track 034 ",
+                m4a: "audios/97.m4a",
+                oga: "audios/97.m4a"
             },  
             {
-                title: "Unidad 4 Track 98 ",
-                mp3: "audios/98.mp3",
-                oga: "audios/98.mp3"
+                title: "Unidad 4 Track 035 ",
+                m4a: "audios/98.m4a",
+                oga: "audios/98.m4a"
             },  
             {
-                title: "Unidad 4 Track 99 ",
-                mp3: "audios/99.mp3",
-                oga: "audios/99.mp3"
+                title: "Unidad 4 Track 036 ",
+                m4a: "audios/99.m4a",
+                oga: "audios/99.m4a"
             },  
             {
-                title: "Unidad 4 Track 100 ",
-                mp3: "audios/100.mp3",
-                oga: "audios/100.mp3"
+                title: "Unidad 4 Track 037 ",
+                m4a: "audios/100.m4a",
+                oga: "audios/100.m4a"
             },
             {
-                title: "Unidad 4 Track 101 ",
-                mp3: "audios/101.mp3",
-                oga: "audios/101.mp3"
+                title: "Unidad 4 Track 038 ",
+                m4a: "audios/101.m4a",
+                oga: "audios/101.m4a"
             },
             {
-                title: "Unidad 4 Track 102 ",
-                mp3: "audios/102.mp3",
-                oga: "audios/102.mp3"
+                title: "Unidad 4 Track 039 ",
+                m4a: "audios/102.m4a",
+                oga: "audios/102.m4a"
             },
             {
-                title: "Unidad 4 Track 103 ",
-                mp3: "audios/103.mp3",
-                oga: "audios/103.mp3"
+                title: "Unidad 4 Track 040 ",
+                m4a: "audios/103.m4a",
+                oga: "audios/103.m4a"
             },
             {
-                title: "Unidad 4 Track 104 ",
-                mp3: "audios/104.mp3",
-                oga: "audios/104.mp3"
+                title: "Unidad 4 Track 041 ",
+                m4a: "audios/104.m4a",
+                oga: "audios/104.m4a"
             },
             {
-                title: "Unidad 4 Track 105 ",
-                mp3: "audios/105.mp3",
-                oga: "audios/105.mp3"
+                title: "Unidad 4 Track 042 ",
+                m4a: "audios/105.m4a",
+                oga: "audios/105.m4a"
             },
             {
-                title: "Unidad 4 Track 106 ",
-                mp3: "audios/106.mp3",
-                oga: "audios/106.mp3"
+                title: "Unidad 4 Track 043 ",
+                m4a: "audios/106.m4a",
+                oga: "audios/106.m4a"
             },
             {
-                title: "Unidad 4 Track 107 ",
-                mp3: "audios/107.mp3",
-                oga: "audios/107.mp3"
+                title: "Unidad 4 Track 044 ",
+                m4a: "audios/107.m4a",
+                oga: "audios/107.m4a"
             },
             {
-                title: "Unidad 4 Track 108 ",
-                mp3: "audios/108.mp3",
-                oga: "audios/108.mp3"
+                title: "Unidad 4 Track 045 ",
+                m4a: "audios/108.m4a",
+                oga: "audios/108.m4a"
             },
             {
-                title: "Unidad 4 Track 109 ",
-                mp3: "audios/109.mp3",
-                oga: "audios/109.mp3"
+                title: "Unidad 4 Track 046 ",
+                m4a: "audios/109.m4a",
+                oga: "audios/109.m4a"
             },
             {
-                title: "Unidad 4 Track 110 ",
-                mp3: "audios/110.mp3",
-                oga: "audios/110.mp3"
+                title: "Unidad 4 Track 047 ",
+                m4a: "audios/110.m4a",
+                oga: "audios/110.m4a"
             },
             {
-                title: "Unidad 4 Track 111 ",
-                mp3: "audios/111.mp3",
-                oga: "audios/111.mp3"
+                title: "Unidad 4 Track 048 ",
+                m4a: "audios/111.m4a",
+                oga: "audios/111.m4a"
             },
             {
-                title: "Unidad 4 Track 112 ",
-                mp3: "audios/112.mp3",
-                oga: "audios/112.mp3"
+                title: "Unidad 4 Track 049 ",
+                m4a: "audios/112.m4a",
+                oga: "audios/112.m4a"
             },
             {
-                title: "Unidad 4 Track 113 ",
-                mp3: "audios/113.mp3",
-                oga: "audios/113.mp3"
+                title: "Unidad 4 Track 050 ",
+                m4a: "audios/113.m4a",
+                oga: "audios/113.m4a"
             },
             {
-                title: "Unidad 4 Track 114 ",
-                mp3: "audios/114.mp3",
-                oga: "audios/114.mp3"
+                title: "Unidad 4 Track 051 ",
+                m4a: "audios/114.m4a",
+                oga: "audios/114.m4a"
             },
             {
-                title: "Unidad 4 Track 115 ",
-                mp3: "audios/115.mp3",
-                oga: "audios/115.mp3"
+                title: "Unidad 4 Track 052 ",
+                m4a: "audios/115.m4a",
+                oga: "audios/115.m4a"
             },
             {
-                title: "Unidad 4 Track 116 ",
-                mp3: "audios/116.mp3",
-                oga: "audios/116.mp3"
+                title: "Unidad 4 Track 053 ",
+                m4a: "audios/116.m4a",
+                oga: "audios/116.m4a"
             },
             {
-                title: "Unidad 4 Track 117 ",
-                mp3: "audios/117.mp3",
-                oga: "audios/117.mp3"
+                title: "Unidad 4 Track 054 ",
+                m4a: "audios/117.m4a",
+                oga: "audios/117.m4a"
             },
             {
-                title: "Unidad 4 Track 118 ",
-                mp3: "audios/118.mp3",
-                oga: "audios/118.mp3"
+                title: "Unidad 4 Track 055 ",
+                m4a: "audios/118.m4a",
+                oga: "audios/118.m4a"
             },
             {
-                title: "Unidad 4 Track 119 ",
-                mp3: "audios/119.mp3",
-                oga: "audios/119.mp3"
+                title: "Unidad 4 Track 056 ",
+                m4a: "audios/119.m4a",
+                oga: "audios/119.m4a"
             },
             {
-                title: "Unidad 4 Track 120 ",
-                mp3: "audios/120.mp3",
-                oga: "audios/120.mp3"
+                title: "Unidad 4 Track 057 ",
+                m4a: "audios/120.m4a",
+                oga: "audios/120.m4a"
             },
             {
-                title: "Unidad 4 Track 121",
-                mp3: "audios/121.mp3",
-                oga: "audios/121.mp3"
+                title: "Unidad 4 Track 058",
+                m4a: "audios/121.m4a",
+                oga: "audios/121.m4a"
             },
             {
-                title: "Unidad 4 Track 122 ",
-                mp3: "audios/122.mp3",
-                oga: "audios/122.mp3"
+                title: "Unidad 4 Track 059 ",
+                m4a: "audios/122.m4a",
+                oga: "audios/122.m4a"
             },
             {
-                title: "Unidad 4 Track 123 ",
-                mp3: "audios/123.mp3",
-                oga: "audios/123.mp3"
+                title: "Unidad 4 Track 060 ",
+                m4a: "audios/123.m4a",
+                oga: "audios/123.m4a"
             },
             {
-                title: "Unidad 4 Track 124 ",
-                mp3: "audios/124.mp3",
-                oga: "audios/124.mp3"
+                title: "Unidad 4 Track 061 ",
+                m4a: "audios/124.m4a",
+                oga: "audios/124.m4a"
             },
            
         
@@ -834,7 +835,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
         ], {
             swfPath: "../../dist/jplayer",
-            supplied: "oga, mp3",
+            supplied: "oga, m4a",
             wmode: "window",
             useStateClassSkin: true,
             autoBlur: false,
